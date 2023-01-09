@@ -4,6 +4,7 @@ const secInput = document.querySelector("input");
 form.addEventListener('submit', function(e){
     e.preventDefault();
     console.log(secInput.value);
+    countDown(secInput.value);
 
 })
 
